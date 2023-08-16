@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import SC from "../assets/images/sc-logo_light.png";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
   { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
   { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
 ];
@@ -26,11 +24,11 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+              <div className="text-white mr-2 mt-2 text-4xl">
+                <img className="h-[145px]" src={SC} />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+              <div className="text-white font-['Arial'] text-l">
+                Students' Chapter CSBS
               </div>
             </div>
           </a>
@@ -64,12 +62,12 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href=""
               target="_blank"
               aria-label="source code"
             >
               <GithubIcon />
-              <span className="pt-px">Source code</span>
+              <span className="pt-px">Follow Us</span>
             </a>
           </div>
         </motion.div>
@@ -114,7 +112,7 @@ export const Navbar = () => {
                 target="_blank"
               >
                 <GithubIcon />
-                Source code
+                Follow Us
               </a>
             </div>
           </motion.div>
