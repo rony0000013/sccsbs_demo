@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "What is the purpose of the CSBS Student Chapter website?",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "The purpose of the CSBS Student Chapter website is to provide information about the CSBS Student Chapter, its mission, goals, and history",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "What can be found in the Notice Board section of the website?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "The Notice Board section of the website displays event announcements, news, and important updates",
   },
   {
-    question: "What's your refund policy?",
+    question: "How can administrators post, edit, and remove notices on the website?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "Administrators have the ability to post, edit, and remove notices on the website.",
   },
   {
-    question: "How to get support for the product?",
+    question: "What information is collected during member registration?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "During member registration, user information such as name, email, student ID, branch, and team preference (Tech Team, Content Team, etc.) is collected.",
   },
-];
+]; 
 
 export const FAQ = () => (
   <section className="relative pt-16 pb-16 bg-blueGray-50 overflow-hidden">
